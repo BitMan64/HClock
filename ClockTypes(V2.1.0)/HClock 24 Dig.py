@@ -59,7 +59,7 @@ def run():
         SURFACER = text_surf.get_rect()
         SURFACER.center=(400,240)
         flipped_surf = pygame.transform.flip(text_surf, 1, 0)
-        screen.blit( flipped_surf, SURFACER)
+        screen.blit(text_surf, SURFACER)
         
         pygame.display.update()
     pygame.quit()
