@@ -56,7 +56,7 @@ def Clock_Face(h,m,s,pen):
     pen.goto(0,0)
     pen.color("green")
     pen.setheading(90)
-    angle = (h / 12) * -360
+    angle = (h / 12) * 360
     pen.rt(angle)
     pen.pendown()
     pen.fd(90)
@@ -67,7 +67,7 @@ def Clock_Face(h,m,s,pen):
     pen.goto(0,0)
     pen.color("green")
     pen.setheading(90)
-    angle = (m / 60) * -360
+    angle = (m / 60) * 360
     pen.rt(angle)
     pen.pendown()
     pen.fd(130)
@@ -78,7 +78,7 @@ def Clock_Face(h,m,s,pen):
     pen.goto(0,0)
     pen.color("red")
     pen.setheading(90)
-    angle = (s / 60) * -360
+    angle = (s / 60) * 360
     pen.rt(angle)
     pen.pendown()
     pen.fd(180)
