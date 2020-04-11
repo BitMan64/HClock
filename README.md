@@ -10,4 +10,4 @@ Only use this code for the HClock (Illusion holographic clock)
 CODE:
 
 
-The Digital clocks are perfected and are in full screen. The Analog clock isn't full screen.
+All clocks are full screen.
